@@ -13,6 +13,9 @@
 		985EA64226550B690085AC7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985EA64026550B690085AC7E /* Main.storyboard */; };
 		985EA64426550B6A0085AC7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985EA64326550B6A0085AC7E /* Assets.xcassets */; };
 		985EA64726550B6A0085AC7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985EA64526550B6A0085AC7E /* LaunchScreen.storyboard */; };
+		985EA64F2656370C0085AC7E /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985EA64E2656370C0085AC7E /* APICaller.swift */; };
+		985EA65126563E380085AC7E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985EA65026563E380085AC7E /* Models.swift */; };
+		985EA6532656616A0085AC7E /* DogeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985EA6522656616A0085AC7E /* DogeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		985EA64326550B6A0085AC7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		985EA64626550B6A0085AC7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		985EA64826550B6A0085AC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		985EA64E2656370C0085AC7E /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		985EA65026563E380085AC7E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		985EA6522656616A0085AC7E /* DogeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				985EA64326550B6A0085AC7E /* Assets.xcassets */,
 				985EA64526550B6A0085AC7E /* LaunchScreen.storyboard */,
 				985EA64826550B6A0085AC7E /* Info.plist */,
+				985EA64E2656370C0085AC7E /* APICaller.swift */,
+				985EA65026563E380085AC7E /* Models.swift */,
+				985EA6522656616A0085AC7E /* DogeTableViewCell.swift */,
 			);
 			path = DogeCoin;
 			sourceTree = "<group>";
@@ -137,9 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985EA6532656616A0085AC7E /* DogeTableViewCell.swift in Sources */,
 				985EA63F26550B690085AC7E /* ViewController.swift in Sources */,
 				985EA63B26550B690085AC7E /* AppDelegate.swift in Sources */,
 				985EA63D26550B690085AC7E /* SceneDelegate.swift in Sources */,
+				985EA64F2656370C0085AC7E /* APICaller.swift in Sources */,
+				985EA65126563E380085AC7E /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
